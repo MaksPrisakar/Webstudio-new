@@ -1,4 +1,4 @@
-:root {
+root {
     --accent-color: #2196f3;
     --main-color: #212121;
     --text-color: #757575;
@@ -48,6 +48,11 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+body {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 700;
+}
   .container {
     width: 1200px;
     padding: 0 15px;
@@ -66,7 +71,6 @@ a {
   }
   .logo {
     font-family: var(--second-family);
-font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
 color: #2196f3;
@@ -83,7 +87,7 @@ color: #2196f3;
  {
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 14px;
+  
   letter-spacing: 0.02em;
   color: var(--main-color); 
  }
@@ -100,9 +104,7 @@ color: #2196f3;
  }
   .contact-link
   {
-    font-family: var(--font-family);
 font-weight: 500;
-font-size: 14px;
 letter-spacing: 0.02em;
 color: var(--text-color);
   }
@@ -113,7 +115,6 @@ color: var(--text-color);
   padding-bottom: 200px;
  }
  .hero-title {
-  font-family: var(--font-family);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -132,7 +133,7 @@ margin-bottom: 30px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #2196f3;
   font-family: var(--font-family);
-font-weight: 700;
+
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
@@ -149,14 +150,13 @@ margin: 0 auto;
  .features-list {
   display: flex;
   column-gap: 30px;
-  
+
 
  }
  .features-title 
  {
-  font-family: var(--font-family);
-font-weight: 700;
-font-size: 14px;
+
+
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--main-color);
@@ -166,9 +166,7 @@ margin-bottom: 10px;
   padding-bottom: 94px;
  }
  .services-title {
-  
-  font-family: var(--font-family);
-font-weight: 700;
+
 font-size: 36px;
 letter-spacing: 0.03em;
 text-align: center;
@@ -187,8 +185,7 @@ margin-bottom: 50px;
  }
  .team-title
  {
-  font-family: var(--font-family);
-font-weight: 700;
+
 font-size: 36px;
 letter-spacing: 0.03em;
 text-align: center;
@@ -204,7 +201,6 @@ margin-bottom: 50px;
 border-radius: 0 0 4px 4px;
  }
  .team-name {
-  font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
 letter-spacing: 0.03em;
@@ -214,7 +210,6 @@ margin-top: 30px;
 margin-bottom: 10px;
  }
  .team-profession {
-  font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.03em;
@@ -226,7 +221,7 @@ margin-bottom: 30px;
  .logo
  {
   font-family: var(--second-family);
-font-weight: 700;
+
 font-size: 26px;
 letter-spacing: 0.03em;
 color: #2196f3;
@@ -253,17 +248,15 @@ color: #2196f3;
   margin-top: 9px;
  }
  .footer-contacts-link {
-  font-family: var(--font-family);
   font-weight: 400;
-  font-size: 14px;
+  
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6); 
  }
 .post-address {
-  font-family: var(--font-family);
 font-weight: 400;
-font-size: 14px;
+
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #fff;
